@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select-native' // Need native select wrapper usually or just use native HTML select
+// NativeSelect defined below
 import { Label } from '@/components/ui/label'
 
 // Simple Native Select Component for speed
